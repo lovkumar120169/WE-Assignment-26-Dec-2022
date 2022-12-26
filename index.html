@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            width: 100%;
+            background-color: rgba(57, 57, 92, 0.942);
+            height: 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 1px;
+           
+
+        }
+        .container > img{
+            width: 6%;
+            margin-left: 35px;
+            /* height: 30px; */
+            mix-blend-mode: color-burn;
+        }
+        .container div{
+            display: flex;
+            
+            margin-right: 80px;
+            width: 20%;
+            font-size: 18px;
+            justify-content: space-between;
+            
+        }
+        .container div>a{
+            text-decoration: none;
+            color: white;
+        }
+        h1{
+            text-align: center;
+            color: rgba(203, 42, 42, 0.852);
+            margin-top: 60px;
+            font-size: 30px;
+        }
+        .container-1{
+           
+            width: 80%;
+            display: flex;
+            margin: auto;
+            flex-wrap: wrap;
+          align-items: center;
+        }
+        .container-1>div{
+          width: 33%;
+          display: flex;
+          justify-content: center;
+          margin-top: 20px;  
+        }
+        .container-1>div img{
+            border-radius: 15px;
+            width: 90%;
+        }
+       
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://mma.prnewswire.com/media/1631809/Masai_Logo.jpg" alt="">
+        <div>
+            <a href="">HOME</a>
+            <a href="">GALLERY</a>
+            <a href="">ABOUT</a>
+        </div>
+
+    </div>
+    <h1>PHOTO GALLERY</h1>
+    <div class="container-1">
+            <div>
+                <img src="https://preview.colorlib.com/theme/pentax/img/project/1.jpg.webp" alt="">
+            </div>
+            <div>
+                <img src="./images/train logo.png" alt="">
+            </div>
+            <div>
+                <img src="./images/cam logo.png" alt="">
+            </div>
+            <div>
+                <img src="./images/train logo.png" alt="">
+            </div>
+            <div>
+                <img src="./images/cam logo.png" alt="">
+            </div>
+            <div>
+                <img src="https://preview.colorlib.com/theme/pentax/img/project/1.jpg.webp" alt="">
+            </div>
+    </div>
+    
+</body>
+</html>
